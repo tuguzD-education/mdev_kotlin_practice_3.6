@@ -9,4 +9,4 @@
     android:layout_height="match_parent"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ColorListFragment"
-    tools:listitem="@layout/fragment_color" />
+    tools:listitem="@layout/item_color" />

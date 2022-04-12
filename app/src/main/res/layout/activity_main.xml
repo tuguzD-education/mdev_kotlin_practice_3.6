@@ -6,19 +6,13 @@
     android:orientation="vertical">
 
     <androidx.fragment.app.FragmentContainerView
-        style="@style/layoutStyleV"
+        style="@style/layoutStyle"
         android:name="io.github.tuguzd.fragments.ColorListFragment"
         android:id="@+id/fragment1" />
 
     <androidx.fragment.app.FragmentContainerView
-        style="@style/layoutStyleV"
+        style="@style/layoutStyle"
         android:name="io.github.tuguzd.fragments.ColoredFragment"
         android:id="@+id/fragment2" />
-
-<!--        <FrameLayout style="@style/layoutStyleV"-->
-<!--            android:id="@+id/fragment1" />-->
-
-<!--        <FrameLayout style="@style/layoutStyleV"-->
-<!--            android:id="@+id/fragment2" />-->
 
 </LinearLayout>

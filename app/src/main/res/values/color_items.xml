@@ -141,7 +141,7 @@
     <color name="SlateGrey">#708090</color>
     <color name="DarkSlateGrey">#2F4F4F</color>
 
-    <array name="colorValues">
+    <integer-array name="colorValues">
         <item>@color/IndianRed</item>
         <item>@color/LightCoral</item>
         <item>@color/Salmon</item>
@@ -207,7 +207,6 @@
         <item>@color/SaddleBrown</item>
         <item>@color/Sienna</item>
         <item>@color/Brown</item>
-        <item>@color/Maroon</item>
         <item>@color/Black</item>
         <item>@color/Grey</item>
         <item>@color/Silver</item>
@@ -272,7 +271,6 @@
         <item>@color/DarkBlue</item>
         <item>@color/Navy</item>
         <item>@color/MidnightBlue</item>
-        <item>@color/White</item>
         <item>@color/Snow</item>
         <item>@color/Honeydew</item>
         <item>@color/MintCream</item>
@@ -291,13 +289,12 @@
         <item>@color/MistyRose</item>
         <item>@color/Gainsboro</item>
         <item>@color/LightGrey</item>
-        <item>@color/Silver</item>
         <item>@color/DarkGrey</item>
         <item>@color/DimGrey</item>
         <item>@color/LightSlateGrey</item>
         <item>@color/SlateGrey</item>
         <item>@color/DarkSlateGrey</item>
-    </array>
+    </integer-array>
 
     <string-array name="colorNames">
         <item>IndianRed</item>
@@ -365,8 +362,8 @@
         <item>SaddleBrown</item>
         <item>Sienna</item>
         <item>Brown</item>
-        <item>Maroon</item>
         <item>Black</item>
+        <item>Grey</item>
         <item>Silver</item>
         <item>White</item>
         <item>Fuchsia</item>
@@ -429,7 +426,6 @@
         <item>DarkBlue</item>
         <item>Navy</item>
         <item>MidnightBlue</item>
-        <item>White</item>
         <item>Snow</item>
         <item>Honeydew</item>
         <item>MintCream</item>
@@ -448,9 +444,7 @@
         <item>MistyRose</item>
         <item>Gainsboro</item>
         <item>LightGrey</item>
-        <item>Silver</item>
         <item>DarkGrey</item>
-        <item>Grey</item>
         <item>DimGrey</item>
         <item>LightSlateGrey</item>
         <item>SlateGrey</item>
