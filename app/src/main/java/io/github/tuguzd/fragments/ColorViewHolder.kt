@@ -1,14 +1,22 @@
 package io.github.tuguzd.fragments
 
+import android.view.View
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import io.github.tuguzd.fragments.databinding.ItemColorBinding
 
-class ColorViewHolder(private val binding: ItemColorBinding) : ViewHolder(binding.root) {
-    fun bind(color: String, position: Int): Unit = binding.run {
-        colorText.text = color
+class ColorViewHolder(
+    private val binding: ItemColorBinding,
+    private val onItemClicked: (position: Int) -> Unit
+) : ViewHolder(binding.root), View.OnClickListener {
 
-        val colorValues = binding.root.context.resources.getIntArray(R.array.colorValues)
+    init { binding.root.setOnClickListener(this) }
 
-        colorLayout.setBackgroundColor(colorValues[position])
+    fun bind(color: Pair<String, Int>): Unit = binding.run {
+        itemText.text = color.first
+        itemLayout.setBackgroundColor(color.second)
+    }
+
+    override fun onClick(v: View?) {
+        onItemClicked(absoluteAdapterPosition)
     }
 }
